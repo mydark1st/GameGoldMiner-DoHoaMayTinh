@@ -1,0 +1,49 @@
+﻿Build started 4/19/2021 5:42:00 PM.
+     1>Project "D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.cpp
+         DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.cpp
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\graphics.h(281): warning C4273: 'getch' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see previous definition of 'getch'
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\graphics.h(282): warning C4273: 'kbhit' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see previous definition of 'kbhit'
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(22): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(25): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(25): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(26): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(26): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(787): warning C4101: 'kimcuong' : unreferenced local variable
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(786): warning C4101: 'da' : unreferenced local variable
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1008): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1009): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1177): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1178): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1334): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>d:\đào vàng\detai6_tlphuong_tpnam_ntlinh_ntdmy\detai6_tlphuong_tpnam_ntlinh_ntdmy.cpp(1325): warning C4101: 'gm' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.lib" /MACHINE:X86 Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.obj
+         LINK : D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe not found or not built by the last incremental link; performing full link
+     1>graphics.lib(dibutil.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(drawing.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(file.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(misc.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(mouse.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(text.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(winbgi.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>graphics.lib(winthread.obj) : warning LNK4204: 'D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.vcxproj -> D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe;#1" /manifest Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.unsuccessfulbuild".
+         Touching "Debug\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.lastbuildstate".
+     1>Done Building Project "D:\Đào Vàng\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy\DeTai6_TLPhuong_TPNam_NTLinh_NTDMy.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79
